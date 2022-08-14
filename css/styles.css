@@ -22,7 +22,8 @@
  --logo-color: #000000;
  --hero-title-color: #FFFFFF;
  --background-dark-color: #2F303A;
- --background-cloudy-color: #F5F4FA
+ --background-cloudy-color: #F5F4FA;
+ --contacts-color: rgba(255, 255, 255, 0.6);
 
 }
 
@@ -167,6 +168,11 @@ img {
     letter-spacing: 0.03em;
 }
 
+.imagine-fone {
+    background-color: var(--hero-title-color); 
+}
+ 
+
 .team {
     background-color: var(--background-cloudy-color);
 }
@@ -174,19 +180,56 @@ img {
  
 /* Button */
 .button {
-    background-color: var(--accent-color);
     color: var(--hero-title-color);
+    background-color: var(--accent-color);
+
 }
 
-.button-primary {
-    background-color: var(--accent-color);
+.button.primary {
     color: var(--hero-title-color);
+    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1, 88;
+    line-height: 1,88;
     text-align: center;
     letter-spacing: 0.06em;
 }
+
+/*Портфоліо */
+
+.portfolio-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,86;
+    letter-spacing: 0.03em;
+}
+
+
+.portfolio-list {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,63;
+    cursor: pointer;
+    
+}
+.portfolio-list:hover,
+.portfolio-list:focus {
+    background-color: var(--accent-color);
+    color: var(--hero-title-color);
+
+}
+
     
     
 
@@ -195,4 +238,36 @@ img {
 
 .page-footer {
     background-color: var(--background-dark-color);
+}
+
+.logo-footer {
+    color: var(--hero-title-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+}
+
+.footer-text {
+    color: var(--hero-title-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+}
+
+.footer-contact {
+color: var(--contacts-color);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+}
+
+.footer-text:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
 }
