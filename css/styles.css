@@ -31,6 +31,8 @@ body {
     background-color: #fff;
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -42,8 +44,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 
 .accent {
@@ -69,7 +70,7 @@ img {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -86,8 +87,7 @@ img {
 .contacts .link {
     color: var(--secondary-text-color);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -105,7 +105,7 @@ img {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
 }
@@ -127,45 +127,37 @@ img {
 .benefit-list .title {
     color: var(--primary-text-color);
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0.03em;
+    line-height: 1.14;
 }
 
 .benefit-list .text {
     color: var(--secondary-text-color);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 }
 
 .team-list .title {
    color: var(--primary-text-color);
    font-weight: 500;
    font-size: 16px;
-   line-height: 1,19;
+   line-height: 1.19;
    text-align: center;
-   letter-spacing: 0.03em;
 }
 
 
 .team-list .text {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .section-title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .imagine-fone {
@@ -190,7 +182,7 @@ img {
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
 }
@@ -207,10 +199,8 @@ img {
 
 .portfolio-text {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1,86;
-    letter-spacing: 0.03em;
+    line-height: 1.86;
 }
 
 
@@ -219,7 +209,7 @@ img {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,63;
+    line-height: 1.63;
     cursor: pointer;
     
 }
@@ -245,26 +235,20 @@ img {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1, 19;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 
 .footer-text {
     color: var(--hero-title-color);
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 }
 
 .footer-contact {
 color: var(--contacts-color);
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
-line-height: 1,71;
-letter-spacing: 0.03em;
+line-height: 1.71;
 }
 
 .footer-text:hover,
